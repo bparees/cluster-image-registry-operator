@@ -17,7 +17,7 @@ func TestClusterImageRegistryOperator(t *testing.T) {
 			APIVersion: imageregistryapi.SchemeGroupVersion.String(),
 		},
 		ObjectMeta: metaapi.ObjectMeta{
-			Name:      "image-registry",
+			Name:      "fake-image-registry",
 			Namespace: "openshift-image-registry",
 		},
 	}
